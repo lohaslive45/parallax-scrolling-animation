@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+    <head>
+        <title>Mountain山巒</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/main.css" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>    <!--=======匯入 外部css ICON=====--> 
+    </head>
+    <body>
+        <!--============頂部===========-->
+        <header class="left-header">
+            <nav class="nav bd-grid">
+                <a href="#" class="nav_logo">Mountain山巒</a>    <!--=======左上logo字樣=====-->
+
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class='bx bx-menu-alt-right'></i>    <!--=======匯入 MENU ICON(來自外部網站)=====--> 
+                </div>
+
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list">
+                        <li class="nav_item"><a href="#" class="nav_link">首頁Home</a></li>
+                        <li class="nav_item"><a href="#" class="nav_link">探索Explore</a></li>
+                        <li class="nav_item"><a href="#" class="nav_link">冒險Adventutre</a></li>
+                        <li class="nav_item"><a href="#" class="nav_link">發現Discover</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!--============HOME主頁面===========-->
+        <div class="home">
+            <div class="parallax home_parallax home_parallax-img1" data-rellax-speed="-9"></div>
+            <div class="parallax home_parallax home_parallax-img2" data-rellax-speed="-7"></div>
+            <div class="parallax home_parallax home_parallax-img3" data-rellax-speed="-6"></div>
+            <div class="parallax home_parallax home_parallax-img4" data-rellax-speed="-3"></div>
+
+            <h1 class="parallax home_title" data-rellax-speed="-6">Mountain山巒之巔</h1>
+
+            <span class="parallax home_subtitle" data-rellax-speed="-5">Explore發掘森響曲</span>
+
+            <div class="home_scroll">   <!--=====【a #】跳轉畫面到 指定位置=====-->
+                <a href="#section"><i class='bx bx-mouse'></i></a> 
+            </div>
+        </div>
+        <!--============SECTION首頁下 段落內容===========-->
+        <section class="left-section" id="section">
+            <div class="section">
+                <div class="section_data">
+                    <h2 class="section_title">Scaling舞動縮放</h2>
+                    <p class="section_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, facere laboriosam sequi ut aperiam eveniet.</p>
+                </div>
+
+                <img src="img/imgm.jpg" alt="" class="section_img">
+            </div>
+        </section>
+
+        <!--============rellax js不同速度滾動交錯效果===========-->
+        <script src="js/rellax.min.js"></script>
+
+        <!--============gsap js向上漂浮懸出 ===========-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+        <!--============scroll reveal js隨畫面浮出內容===========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--============main js 主要js主要js===========-->
+        <script src="./js/mian.js"></script>
+
+    </body>
+</html>
